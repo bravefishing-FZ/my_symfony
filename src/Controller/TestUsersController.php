@@ -32,7 +32,7 @@ class TestUsersController extends AbstractController
         $lastLoginFrom = $request->query->get('last_login_from', null);
         $lastLoginTo = $request->query->get('last_login_to', null);
         $userTypes = $request->query->get('user_types', "");
-        $userTypes = explode(",", $userTypes); //$userTypes is string in query, which has multiple values combine with comma
+        $userTypes = ($userTypes)?explode(",", $userTypes):$userTypes; //$userTypes is string in query, which has multiple values combine with comma
 
         //get all users  by is_active, is_member, last_login_at (range), and user_type (multiple values combine with comma)
         $users = $this->testUsersRepository->findAllBySearchFields($isActive, $isMember, $lastLoginFrom, $lastLoginTo, $userTypes);
