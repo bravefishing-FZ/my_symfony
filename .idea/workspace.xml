@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cdf9bb9-bc4b-4595-ac23-658e4aa53e1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/TestUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TestUsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/TestUsersRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/TestUsersRepository.php" afterDir="false" />
     </list>
@@ -21,15 +20,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Controller/TestUsersControllerTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/bundles.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -41,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/TestUsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="83">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="e#34#99#0#PHP" expanded="true" />
               </folding>
@@ -83,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Repository/TestUsersRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="87" column="35" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="87" selection-end-column="35" />
+            <state relative-caret-position="168">
+              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
               <folding>
                 <element signature="e#34#59#0#PHP" expanded="true" />
               </folding>
@@ -275,6 +265,22 @@
               <item name="my_symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_symfony" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -335,12 +341,12 @@
       <option name="presentableId" value="Default" />
       <updated>1685028594814</updated>
       <workItem from="1685028596782" duration="1828000" />
-      <workItem from="1685031600027" duration="44139000" />
+      <workItem from="1685031600027" duration="44828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45967000" />
+    <option name="totallyTimeSpent" value="46656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1271" height="671" extended-state="0" />
@@ -570,13 +576,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle/Resources/doc/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/bundles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/preload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -615,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Controller/TestUsersControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/TestUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -632,10 +624,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Controller/TestUsersControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/TestUsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="83">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding>
             <element signature="e#34#99#0#PHP" expanded="true" />
           </folding>
@@ -644,8 +650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/TestUsersRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="87" column="35" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="87" selection-end-column="35" />
+        <state relative-caret-position="168">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
             <element signature="e#34#59#0#PHP" expanded="true" />
           </folding>

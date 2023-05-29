@@ -27,8 +27,8 @@ class TestUsersController extends AbstractController
     public function search(Request $request): JsonResponse
     {
         //get params form request query
-        $isActive = $request->query->getBoolean('is_active', false);
-        $isMember = $request->query->getBoolean('is_member', false);
+        $isActive = $request->query->get('is_active', null);
+        $isMember = $request->query->get('is_member', null);
         $lastLoginFrom = $request->query->get('last_login_from', null);
         $lastLoginTo = $request->query->get('last_login_to', null);
         $userTypes = $request->query->get('user_types', "");

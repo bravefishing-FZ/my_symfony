@@ -60,12 +60,17 @@ class TestUsersRepository extends ServiceEntityRepository
             )
             ->where('1=1');
 
-        $queryBuilder->andWhere('u.is_active = :is_active')
+        if($isActive != NULL){
+            $queryBuilder->andWhere('u.is_active = :is_active')
                 ->setParameter('is_active', $isActive);
+        }
 
 
-        $queryBuilder->andWhere('u.is_member = :is_member')
+        if($isMember != NULL){
+            $queryBuilder->andWhere('u.is_member = :is_member')
                 ->setParameter('is_member', $isMember);
+        }
+
 
         if ($lastLoginFrom) {
             $queryBuilder->andWhere('u.last_login_at >= :lastLoginFrom')
